@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>JavaScriptでタブ切り替えサンプル | WWW WATCH</title>
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<link rev="made" href="http://hyper-text.org/" />
+<link rel="stylesheet" href="tab_sample.css" type="text/css" media="all" />
+<script type="text/javascript" src="tab_change.js"></script>
+
+</head>
+<body id="tab_sample">
+
+<p class="backto"><a href="http://hyper-text.org/archives/2007/09/javascript_tab.shtml">back to entry</a></p>
+
+<h1>Tab User Interface Sample</h1>
+
+<div id="javascript_tab_sample">
+<ul id="tab">
+<li class="selected"><a href="#w3c">W3C</a></li>
+<li><a href="#xhtml">XHTML</a></li>
+<li><a href="#css">CSS</a></li>
+</ul>
+<dl id="w3c">
+<dt>World Wide Web Consortium</dt>
+<dd>
+<p>The World Wide Web Consortium (W3C) is the main international standards organization for the World Wide Web (W3). It is arranged as a consortium where member organizations maintain full-time staff for the purpose of working together in the development of standards for the W3. As of March 2007, the W3C had 441 members. It is always open for new organizations to join.</p>
+<p>W3C also engages in education and outreach, develops software and serves as an open forum for discussion about the Web.</p>
+<p>The Consortium is headed by Sir Tim Berners-Lee, the primary author of the original URL (Uniform Resource Locator), HTTP (HyperText Transfer Protocol) and HTML (HyperText Markup Language) specifications, the principal technologies that form the basis of the World Wide Web.</p>
+<p>From Wikipedia, the free encyclopedia</p>
+</dd>
+</dl>
+
+<dl id="xhtml">
+<dt>XHTML</dt>
+<dd>
+<p>The Extensible HyperText Markup Language, or XHTML, is a markup language that has the same depth of expression as HTML, but also conforms to XML syntax.</p>
+<p>Whereas HTML is an application of SGML, a very flexible markup language, XHTML is an application of XML, a more restrictive subset of SGML. Because they need to be well-formed, true XHTML documents allow for automated processing to be performed using standard XML tools—unlike HTML, which requires a relatively complex, lenient, and generally custom parser. XHTML can be thought of as the intersection of HTML and XML in many respects, since it is a reformulation of HTML in XML. XHTML 1.0 became a World Wide Web Consortium (W3C) Recommendation on January 26, 2000. XHTML 1.1 became a W3C recommendation on May 31, 2001.</p>
+<p>From Wikipedia, the free encyclopedia</p>
+</dd>
+</dl>
+
+<dl id="css">
+<dt>Cascading Style Sheets</dt>
+<dd>
+<p>In web development, Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in a markup language. Its most common application is to style web pages written in HTML and XHTML, but the language can be applied to any kind of XML document, including SVG and XUL.</p>
+<p>CSS is used by both the authors and readers of web pages to define colors, fonts, layout, and other aspects of document presentation. It is designed primarily to enable the separation of document content (written in HTML or a similar markup language) from document presentation (written in CSS). This separation can improve content accessibility, provide more flexibility and control in the specification of presentational characteristics, and reduce complexity and repetition in the structural content. CSS can also allow the same markup page to be presented in different styles for different rendering methods, such as on-screen, in print, by voice (when read out by a speech-based browser or screen reader) and on Braille-based, tactile devices. CSS specifies a priority scheme to determine which style rules apply if more than one rule matches against a particular element. In this so-called cascade, priorities or weights are calculated and assigned to rules, so that the results are predictable.</p>
+<p>The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998).</p>
+<p>From Wikipedia, the free encyclopedia</p>
+</dd>
+</dl>
+
+</div>
+
+</body>
+</html>
